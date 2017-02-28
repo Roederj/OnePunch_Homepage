@@ -15,7 +15,6 @@ function switchBackground(bottomImg) {
             document.body.style.backgroundImage = "url('Images/TatsumakiBackground.jpg')";
             document.body.style.backgroundPosition = "top left";
             document.body.style.backgroundSize = "100% auto";
-            fadeBackground();
             break;
         case "genosPic":
             document.body.style.backgroundImage = "url('Images/GenosBackground.jpg')";
@@ -37,7 +36,6 @@ function switchBackground(bottomImg) {
             document.body.style.backgroundPosition = "top left";
             document.body.style.backgroundSize = "100% auto";
             break;
-    }
     }
 }
 
